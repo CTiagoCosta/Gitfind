@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './styles.css';
+
 export default function Header() {
  return (
-   <div>
+   <header>
     <h1>GitFind</h1>
-   </div>
+   </header>
  );
 }
